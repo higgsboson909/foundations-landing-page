@@ -11,26 +11,73 @@ a{
     text-decoration: none;
     color: inherit;
 }
-
-.header{
-    background-color: #1F2937;
+a,
+.hero-sec-text{
+    font-size: 18px;
+    color: #E5E7EB;
 }
-
-.header-logo-text{
-    font-size: 24px;
-    color: #F9FAF8;
-}
-
 .hero-main-text{
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
 
 }
+.header-button{
+    background-color: #3882f6;
+    font-weight: 600;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin-top: 7px;
+}
 
-a,
-.hero-sec-text{
-    font-size: 18px;
-    color: #E5E7EB;
+.body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    flex: auto;
+    display: flex;
+    overflow-x: auto;
+    background-color: #1F2937;
+}
+
+.header-box{
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    gap: 120px;
+    padding: 20px 120px 120px 120px;
+}
+
+.nav{
+    display: flex;
+    flex: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo-text{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+
+}
+.side-text{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+
 }
 
