@@ -106,10 +106,12 @@ ul{
     margin-bottom: 165px;
 }
 .images{
+    box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 80px;
+    margin: 0px 150px;
     align-items: center;
 }
 .item1,
