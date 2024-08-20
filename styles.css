@@ -14,15 +14,17 @@ a{
 a,
 .hero-sec-text{
     font-size: 18px;
-    color: #E5E7EB;
+    color: #E5E7EB; 
 }
+
 .hero-main-text{
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
 
+
 }
-.header-button{
+.header-button button{
     background-color: #3882f6;
     font-weight: 600;
     color: #F9FAF8;
@@ -37,25 +39,24 @@ a,
 }
 
 .header{
-    flex: auto;
-    display: flex;
+
     background-color: #1F2937;
 }
 
 .header-box{
     display: flex;
-    box-sizing: border-box;
-    flex: auto;
     flex-direction: column;
+    justify-content: center;
     gap: 120px;
-    padding: 20px 120px 120px 120px;
+    box-sizing: border-box;
+    margin: 40px 140px 140px 140px;
 }
 
 .nav{
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
     flex: auto;
+    gap: 20px;
     justify-content: space-between;
     align-items: center;
 }
@@ -70,22 +71,30 @@ ul{
     gap: 35px;
     flex-wrap: wrap;
 }
-
 .header-content{
-
-    flex: auto;
     display: flex;
-    align-items: center;
+    flex: auto;
     justify-content: space-between;
+    gap: 40px;
     flex-wrap: wrap;
+    align-content: center;
 }
+
 .side-text{
     display: flex;
+    flex: auto;
     flex-direction: column;
-    width: 450px;
-    margin-bottom: 30px;
-
+    align-items: flex-start;
+    width: 400px;
+    max-width: 650px;
 }
+
+.header-content img{
+    flex: none;
+    align-self: center;
+}
+
+
 
 /* section 2 styling */
 .info-heading{
