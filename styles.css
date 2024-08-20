@@ -39,13 +39,12 @@ a,
 .header{
     flex: auto;
     display: flex;
-    overflow-x: auto;
-    overflow: hidden;
     background-color: #1F2937;
 }
 
 .header-box{
     display: flex;
+    box-sizing: border-box;
     flex: auto;
     flex-direction: column;
     gap: 120px;
@@ -55,6 +54,7 @@ a,
 .nav{
     display: flex;
     flex-wrap: wrap;
+    gap: 10px;
     flex: auto;
     justify-content: space-between;
     align-items: center;
@@ -72,17 +72,18 @@ ul{
 }
 
 .header-content{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: space-between;
-    justify-content: space-between;
 
+    flex: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .side-text{
     display: flex;
     flex-direction: column;
     width: 450px;
+    margin-bottom: 30px;
 
 }
 
